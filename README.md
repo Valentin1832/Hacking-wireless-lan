@@ -37,6 +37,7 @@ When installing aircrack-ng in the first step, we also got access to the followi
 In this script, we use this command to look through all active processes that could interfere with a successful hacking of a wireless network, and immediately kill them. After that, we turn off our wireless interface, change our permanent MAC address to a new random one (if `macchanger` is not installed, you need to install it), change the mode of our network adapter to monitoring mode. After this, we turn on our wireless interface, double-check whether there are any processes left that could prevent hacking, and as a final step we check whether the monitoring mode for the network adapter has been accurately set.
 
 Result of script execution:
+
 ![Monitor Mode](./img/2.png)
 
 ## Scanning
@@ -87,7 +88,7 @@ It will look like this:
 
 I won’t go through a fully valid password, because it will take me a lot of time, but I can give one example when there is a light password and how quickly it can be brute-forced:
 
-![Example](./img/8.png)
+![Example](./img/8.jpg)
 
 When brute force is used, the speed of password guessing will depend on only 3 factors:
 1) Known parts of the password
